@@ -1,20 +1,24 @@
-# 이 저장소는
-1. 이 멋진 IT에 축복을! 의 프로젝트인 **독도** 저장소 입니다.
-2. 다양한 이슈를 받고 있습니다. 버그나 내용 추가는 이슈(issue)에서 해주세요.
+# PLEASE READ THIS...
+1. This Repository use ONLY ENGLISH.
+2. ALL codes use ONLY ENGLISH.
 
-# 서버와 동기화를 언제 하나요?
-1. 팀 사이트처럼 4시간에 한번씩 git pull을 합니다.
-2. 중요 패치는 이슈를 통해 말해주세요. 즉시 적용시키도록 하겠습니다.
-# HTML 파일 작성시 주의사항
-- HTML5 문법을 사용해 주세요.
-- 첫번째 줄에는 반드시 아래의 태그가 있어야 합니다.
+# This Repository is...
+1. One of the projects of "Bless in this wonderful IT!" is Dokdo.
+2. We welcome any issues. When you find some Bugs or want to Add Contents, Please write in issue.
+
+# When do you synchronize with the server?
+1. Try 'git pull' once every 4 hours.
+2. Please tell us about important patches through the issue. We'll apply it immediately.
+# NOTE! When you write/edit HTML Files...
+- Please use HTML5 grammer.
+- First Line has that tag.
 ~~~
 <!DOCTYPE html>
 ~~~
-- 주석 활용을 생활화 합시다.
-- 사용한 외부 자료는 반드시 opensource.html에 등록해 주세요.
-- 필요 없는 스크립트는 삭제하여 접속 속도를 빠르게 해주세요.
+- Please write explanatory notes. That help another Developers.
+- If you use externel materials, please write in 'external_data'
+- Please remove no using script. That help speed up.
 
-# 이슈 등록시 주의사항
-- 이슈 등록시 양식에 따라 작성해 주세요.
-- 특히 버그인 경우 스크린샷을 찍을 수 있다면, 반드시 찍어 올려주세요.
+# NOTE! When you write issues...
+- Please fill out the form when registering an issue.
+- Especially if you can take a screenshot in case of a bug, please be sure to upload it.
