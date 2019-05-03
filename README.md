@@ -3,7 +3,7 @@
 2. ALL codes use ONLY ENGLISH.
 
 # This Repository is...
-1. One of the projects of "Bless in this wonderful IT!" is Dokdo.
+1. One of the projects of "God's Blessing on This Wonderful IT!" is Dokdo.
 2. We welcome any issues. When you find some Bugs or want to Add Contents, Please write in issue.
 
 # When do you synchronize with the server?
