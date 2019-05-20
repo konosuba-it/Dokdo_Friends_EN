@@ -71,46 +71,48 @@
 </nav>
 <!--End Menu-->
 <br>
-<br>
-<br>
 <div style="margin-left: 70px; margin-right: 70px;">
-<center>
-<h2>사이트에 사용된 사진/이미지 자료들을 소개합니다!</h2>
-<p>본 사이트에 적용된 사진/이미지를 빠르게 검색해 보실 수 있습니다. 자료명만 검색 가능합니다.</p>
-</center>
+<h2>Dokdo Quiz!</h2><p>If you find out about Dokdo, now solve the quiz!<br>YOu can check your level of Dokdo.<br>If you got 5/5, Please upload the confirmation letter!</p>
 <hr>
 <br>
-<center>
-<p>검색: &nbsp;&nbsp;&nbsp; <input style="vertical-align:middle; width: 250px" class="uk-search-input" id='txtFilter' type='text' onkeyup='{filter();return false}' onkeypress='javascript:if(event.keyCode==13){ filter(); return false;}' placeholder="Search..."></p>
-</center>
-</div>
+<!--Start QUiz-->
+<!--Start Load Quiz js-->
+<script src="./quiz.js"></script>
+<!--End Load Quiz js-->
+<!--Start Quiz Question-->
+<form name="aform">
+  <h3>First.</h3>
+  <p>The easternmost island of Korea. What is the name of the proud and beautiful island?</p>
+<input type="text" name="result" size=15 id="print1"/>
+  <h3>Second.</h3>
+  <p>Japan has forcibly incorporated 「Dokdo」 into its territory.<br>그러면서 「독도」에 서식하고 있었던 '이 동물'을 마구 포획하여 멸종시켰습니다.<br>그런데 뻔뻔하게도 일본은 「이 동물」을 그리워한다면서 그림까지 그렸는데요. 이 동물의 이름은 무엇일까요?</p>
+<input type="text" name="result2" size=15 id="print2"/>
+  <h3>Third.</h3>
+  <p>러일전쟁에서 일본은 「독도」를 군사적으로 유용하게 쓰일 수 있음을 알게 되어<br>0000년 내각 회의에서 「독도」를 「다케시마」라는 이름으로 시네마현으로 지정하고,<br>2월 22일 「시마네현 고시 제 40호」를 통해 「독도」를 강제 편입하였습니다.<br>이 해는 몇년일까요? 숫자만 입력해 주세요.</p>
+<input type="text" name="result3" size=15 id="print3"/>
+ </form>
+  <h3>Fourth.</h3>
+  <p>「독도」는 대한민국의 영토입니다. 이를 영어로 하면 「Dokdo」 라고 하면 됩니다.<br>일본은 우리의 「독도」를 '다케시마' 라고 하는데요.<br>그 외의 국가들은 「독도」를 무엇이라고 하나요? 홈페이지에 적혀져 있는 문구만 인정합니다.</p>
+<input type="text" name="result4" size=15 id="print4"/>
+  <h3>Fifth.</h3>
+  <p>「독도」 주변 해저에는 다양한 동식물들이 있습니다. 또한 다양한 자원들도 있는데요. 그 중 「이 자원」은 불타는 얼음이라고 불리는데요. 바닷속 미생물들이 퇴적되고, 메탄가스, 천연가스, 물 등이 함께 얼어붙어 생성됩니다. 일반적인 가스보다 200배 가까운 효율을 내는 「이 자원」은 무엇일까요?</p>
+<input type="text" name="result5" size=15 id="print5"/>
+<!--End Quiz Question-->
 <br>
-<div style="margin-left: 70px; margin-right: 70px;">
-<table id="user-table" class="uk-table uk-table-striped">
-    <thead>
-        <tr>
-            <th>번호</th>
-            <th>이미지 명(설명)</th>
-            <th>라이선스</th>
-            <th>기타</th>
-        </tr>
-    </thead>
-    <tbody id='languageTBody'>
-        <tr name='독도 전경'>
-            <td>1</td>
-            <td><span uk-icon="link"></span><a href="https://commons.wikimedia.org/wiki/File:Dokdo_001.jpg" target="_blank">독도 전경</a></td>
-            <td><span uk-icon="link"></span><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko" target="_blank">CC BY-SA 3.0 Unported</a></td>
-            <td></td>
-        </tr>
-        <tr name='독도 파노라마'>
-            <td>2</td>
-            <td><span uk-icon="link"></span><a href="https://commons.wikimedia.org/wiki/File:Dokdo_20080628-panorama.jpg" target="_blank">독도 파노라마</a></td>
-            <td><span uk-icon="link"></span><a href="https://creativecommons.org/licenses/by-sa/2.0/kr/deed.ko" target="_blank">CC BY-SA 2.0 KR</a></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-</div>
+<br>
+<hr>
+<br>
+<!--Check Quiz Answer-->
+<input type="button" class="uk-button uk-button-primary" id="btn" value="Check Answer" style= width:80 height=30 onclick="checkanswers()">
+<!--End Check Quiz Answer-->
+ </form>
+ </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <!--Footer-->
 <br>
 <hr>
@@ -139,8 +141,6 @@
 <script src="https://common.gaon.xyz/js/uikit/uikit-icons.min.js"></script>
 <!--Load Jquery-->
 <script src="https://common.gaon.xyz/js/jquery/jquery-3.3.1.js"></script>
-<!--Load Search js-->
-<script src="./search.js"></script>
 <!--End Load script-->
 </body>
 </html>

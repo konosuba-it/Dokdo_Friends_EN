@@ -71,46 +71,24 @@
 </nav>
 <!--End Menu-->
 <br>
-<br>
-<br>
 <div style="margin-left: 70px; margin-right: 70px;">
-<center>
-<h2>사이트에 사용된 사진/이미지 자료들을 소개합니다!</h2>
-<p>본 사이트에 적용된 사진/이미지를 빠르게 검색해 보실 수 있습니다. 자료명만 검색 가능합니다.</p>
-</center>
+<!--Start Alert-->
+<div class="uk-alert-primary" uk-alert>
+    <a class="uk-alert-close" uk-close></a>
+    <p>● If you do not see the comment window, go to the web. If you access via html file, comment window is not shown.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://withdokdo.tk" target="_blank">Go to Web Version</a></p>
+</div>
+<!--End Alert-->
+<h2>Social Comments</h2>
+<p>You can write comments about Dokdo!<br></p>
+</div>
 <hr>
 <br>
 <center>
-<p>검색: &nbsp;&nbsp;&nbsp; <input style="vertical-align:middle; width: 250px" class="uk-search-input" id='txtFilter' type='text' onkeyup='{filter();return false}' onkeypress='javascript:if(event.keyCode==13){ filter(); return false;}' placeholder="Search..."></p>
+<!-- Start Cosmosfarm Social Comments -->
+<script id="cosmosfarm-comments-script" type="text/javascript" src="https://plugin.cosmosfarm.com/comments.js"></script>
+<div id="cosmosfarm-comments" data-plugin-id="1879617701284587" data-href="https://withdokdo.tk/comments" data-width="550" data-row="10"><a href="http://www.cosmosfarm.com/plugin/comments">Cosmosfarm Social Comments</a></div>
+<!-- End Cosmosfarm Social Comments -->
 </center>
-</div>
-<br>
-<div style="margin-left: 70px; margin-right: 70px;">
-<table id="user-table" class="uk-table uk-table-striped">
-    <thead>
-        <tr>
-            <th>번호</th>
-            <th>이미지 명(설명)</th>
-            <th>라이선스</th>
-            <th>기타</th>
-        </tr>
-    </thead>
-    <tbody id='languageTBody'>
-        <tr name='독도 전경'>
-            <td>1</td>
-            <td><span uk-icon="link"></span><a href="https://commons.wikimedia.org/wiki/File:Dokdo_001.jpg" target="_blank">독도 전경</a></td>
-            <td><span uk-icon="link"></span><a href="https://creativecommons.org/licenses/by-sa/3.0/deed.ko" target="_blank">CC BY-SA 3.0 Unported</a></td>
-            <td></td>
-        </tr>
-        <tr name='독도 파노라마'>
-            <td>2</td>
-            <td><span uk-icon="link"></span><a href="https://commons.wikimedia.org/wiki/File:Dokdo_20080628-panorama.jpg" target="_blank">독도 파노라마</a></td>
-            <td><span uk-icon="link"></span><a href="https://creativecommons.org/licenses/by-sa/2.0/kr/deed.ko" target="_blank">CC BY-SA 2.0 KR</a></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
-</div>
 <!--Footer-->
 <br>
 <hr>
@@ -139,8 +117,6 @@
 <script src="https://common.gaon.xyz/js/uikit/uikit-icons.min.js"></script>
 <!--Load Jquery-->
 <script src="https://common.gaon.xyz/js/jquery/jquery-3.3.1.js"></script>
-<!--Load Search js-->
-<script src="./search.js"></script>
 <!--End Load script-->
 </body>
 </html>
