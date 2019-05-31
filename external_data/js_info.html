@@ -75,13 +75,13 @@
 <br>
 <div style="margin-left: 70px; margin-right: 70px;">
 <center>
-<h2>사이트에 적용된 JavaScript(자바스크립트/JS) 자료들을 소개합니다!</h2>
-<p>본 사이트에 적용된 JS를 빠르게 검색해 보실 수 있습니다. 자료명만 검색 가능합니다.</p>
+<h2>Here are the JavaScript(JS) materials applied to your site!</h2>
+<p>You can search JS materials what it applied in this site.</p>
 </center>
 <hr>
 <br>
 <center>
-<p>검색: &nbsp;&nbsp;&nbsp; <input style="vertical-align:middle; width: 250px" class="uk-search-input" id='txtFilter' type='text' onkeyup='{filter();return false}' onkeypress='javascript:if(event.keyCode==13){ filter(); return false;}' placeholder="Search..."></p>
+<p>Search: &nbsp;&nbsp;&nbsp; <input style="vertical-align:middle; width: 250px" class="uk-search-input" id='txtFilter' type='text' onkeyup='{filter();return false}' onkeypress='javascript:if(event.keyCode==13){ filter(); return false;}' placeholder="Search Materials..."></p>
 </center>
 </div>
 <br>
@@ -89,42 +89,72 @@
 <table id="user-table" class="uk-table uk-table-striped">
     <thead>
         <tr>
-            <th>번호</th>
-            <th>자료명</th>
-            <th>의존 자료</th>
-            <th>기타/설명</th>
+          <th>No</th>
+          <th>Name</th>
+          <th>Dependency data</th>
+          <th>Etc./Explanation</th>
         </tr>
     </thead>
     <tbody id='languageTBody'>
         <tr name='javascript image slider'>
             <td>1</td>
             <td><span uk-icon="link"></span><a href="http://www.menucool.com/javascript-image-slider" target="_blank">javascript image slider</a></td>
-            <td>js-image-slider.js, javascript image slider 관련 html, css 등</td>
-            <td><xmp><!DOCTYPE></xmp> 선언 필요</td>
+            <td>js-image-slider.js, javascript image slider related html, css ...</td>
+            <td>Must Declaration <xmp><!DOCTYPE></xmp></td>
         </tr>
         <tr name='uikit'>
             <td>2</td>
             <td><span uk-icon="link"></span><a href="https://getuikit.com" target="_blank">uikit</a></td>
             <td>uikit css</td>
-            <td>부트스트랩 같은 웹 디자인 프레임워크.<br>uikit css와 같이 사용해야 한다.</td>
+            <td>Web design framework likes Bootstrap.<br>You use with uikit css.</td>
         </tr>
         <tr name='uikit icons'>
             <td>3</td>
             <td><span uk-icon="link"></span><a href="https://getuikit.com" target="_blank">uikit icons</a></td>
-            <td>없음</td>
-            <td>다양한 아이콘들을 삽입 할 수 있다.</td>
+            <td>None</td>
+            <td>You can insert many icons</td>
         </tr>
         <tr name='jquery selector'>
             <td>4</td>
             <td><span uk-icon="link"></span><a href="https://webruden.tistory.com/107" target="_blank">jquery selector</a></td>
             <td>jquery</td>
-            <td>jquery의 selector를 사용하여 한글자를 입력할때마다 해당되는 내용을 보여준다.<br>이 페이지도 해당 기능으로 구현되었다.<br>기존 방식의 jquery contains 방식은 되지 않을때가 있어서 이 기능으로 교체했다.</td>
+            <td>Each time you enter a one character using the selector of jquery, it shows the corresponding information.<br>This page use this function.<br>the existing jquery contacts method is sometimes not working, so we replaced it with this function.</td>
         </tr>
-		<tr name='퀴즈 기능'>
+		    <tr name='Quiz Function'>
             <td>5</td>
-            <td><span uk-icon="link"></span><a href="http://www.gyool.net/xe/blog/20344" target="_blank">퀴즈 기능</a></td>
-            <td>퀴즈 문제 부분 html</td>
-            <td>퀴즈 기능으로 각 칸의 내용을 확인해 정답인지 확인한다.</td>
+            <td><span uk-icon="link"></span><a href="http://www.gyool.net/xe/blog/20344" target="_blank">Quiz Function</a></td>
+            <td>quiz question section html</td>
+            <td>Quiz Function. Fill in the blank and check the answer.</td>
+        </tr>
+        <tr name='Block Refresh'>
+          <td>6</td>
+          <td><span uk-icon="link"></span><a href="https://intro0517.tistory.com/188" target="_blank">Block Refresh</a></td>
+          <td>None</td>
+          <td>block a refresh</td>
+        </tr>
+        <tr name='html2canvas'>
+          <td>7</td>
+          <td><span uk-icon="link"></span><a href="http://html2canvas.hertzen.com/" target="_blank">html2canvas</a><br><a href="https://mytears.tistory.com/78">Helpful blog</a></td>
+          <td>html capture section</td>
+          <td>You can capture the portion of the screen set by the browser on the client.</td>
+        </tr>
+        <tr name='Block F12 Develoer Function'>
+          <td>8</td>
+          <td><span uk-icon="link"></span><a href="https://server-engineer.tistory.com/563" target="_blank">Block F12 Develoer Function</a></td>
+          <td>None</td>
+          <td>Block Browser's F12 Develoer Function, so user can't see answer.</td>
+        </tr>
+        <tr name='Mobile Redirect'>
+          <td>9</td>
+          <td><span uk-icon="link"></span><a href="https://yeop-blog.github.io/2017/10/02/2017-10-02-old-blog-post90/" target="_blank">Mobile Redirect</a></td>
+          <td>None</td>
+          <td>Go to the address you set when you connect to the mobile.</td>
+        </tr>
+        <tr name='bootstrap'>
+          <td>10</td>
+          <td><span uk-icon="link"></span><a href="https://server-engineer.tistory.com/563" target="_blank">bootstrap</a></td>
+          <td>bootstrap css, jquery</td>
+          <td>Web design framework likes uikit.<br>You use with bootstrap css</td>
         </tr>
     </tbody>
 </table>
