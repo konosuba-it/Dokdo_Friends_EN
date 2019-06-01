@@ -2,139 +2,120 @@
 <html>
 <head>
 <title>자랑스러운 대한민국의 영토, 독도</title>
-<!--meta 태그 시작-->
-<!--언어 기본값 UTF-8-->
+<!--Start meta tag-->
 <meta charset="utf-8">
-<!--모바일 브라우저 상단 색 지정-->
-<meta name="theme-color" content="#e3f2fd">
-<!--meta 태그 끝-->
-<!--uikit css 불러오기-->
-<link rel="stylesheet" href="https://common.gaon.xyz/css/uikit/uikit.min.css" />
-<!--모바일 페이지 이동-->
-<script>
-  /**
-  * 모바일 페이지 강제 이동
-  */
-  //Mobile여부를 구분하기 위함
-  var uAgent = navigator.userAgent.toLowerCase();
-  // 아래는 모바일 장치들의 모바일 페이지 접속을위한 스크립트
-  var mobilePhones = new Array('iphone', 'ipod', 'ipad', 'android', 'blackberry', 'windows ce','nokia', 'webos', 'opera mini', 'sonyericsson', 'opera mobi', 'iemobile');
-  for (var i = 0; i < mobilePhones.length; i++){
-    if (uAgent.indexOf(mobilePhones[i]) != -1){
-      location.href="./m_index.html";
-    }
-  };
-</script>
-<!--모바일 페이지 이동 끝-->
+<!--End meta tag-->
+<!--Load uikit css-->
+<link rel="stylesheet" href="https://common.gaon.xyz/css/uikit/uikit.edit.css" />
 </head>
 <body>
-<!--메뉴 시작-->
+<!--Start Menu-->
 <nav class="uk-navbar-container" style="background-color: #e3f2fd;">
     <div class="uk-navbar-left">
-        <a class="uk-navbar-item uk-logo" href="../index.html">독도 프렌즈</a>
+        <a class="uk-navbar-item uk-logo" href="../index.html">Dokdo Friends</a>
         <div uk-navbar>
           <ul class="uk-navbar-nav">
             <li>
-                <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: location"></span>아름다운 독도</a>
+                <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: location"></span>Beatiful Dokdo</a>
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class="uk-nav-header">소개</li>
-                <li><a href="../where/index.html">독도는 어디에 있어요?</a></li>
-                <li><a href="../name/index.html">독도의 명칭</a></li>
-                <li class="uk-nav-header">독도의 동식물과 자원</li>
-                <li><a href="../animals/index.html">다양한 동식물</a></li>
-                <li><a href="../resources/index.html">독도의 자원들</a></li>
+                <li class="uk-nav-header">Introduce</li>
+                <li><a href="../where/index.html">Where is Dokdo?</a></li>
+                <li><a href="../name/index.html">The Name of Dokdo</a></li>
+                <li class="uk-nav-header">Animals and Plants and resources of the Dokdo.</li>
+                <li><a href="../animals/index.html">Variety of animals and plants</a></li>
+                <li><a href="../resources/index.html">Resources of Dokdo</a></li>
               </ul>
             </div>
             </li>
             <li>
-              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: comments"></span>함께해요</a>
+              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: comments"></span>Join Us!</a>
               <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class="uk-nav-header">소셜 기능</a></li>
-                <li><a href="../comments/index.html">소셜 댓글</a></li>
-                <li class="uk-nav-header">독도 관련</li>
-                <li><a href="../song/index.html">독도는 우리땅 노래</a></li>
-				<li><a href="../quiz/index.html">독도 퀴즈</a></li>
+                <li class="uk-nav-header">Social Function</a></li>
+                <li><a href="../comments/index.html">Social Comments</a></li>
+                <li class="uk-nav-header">Dokdo Related</li>
+                <li><a href="../song/index.html">Song 'Dokdo is Our Territory'</a></li>
+				<li><a href="../quiz/index.html">Dokdo Quiz</a></li>
               </ul>
               </div>
             </li>
             <li>
-              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: database"></span>사용된 자료들</a>
+              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: database"></span>Use Materials</a>
               <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li class="uk-nav-header">독도 관련 자료</li>
-                <li><a href="../use_data/image.html">이미지</a></li>
-                <li><a href="../use_data/info.html">정보</a></li>
-                <li class="uk-nav-header">Html 외부 자료</li>
-                <li><a href="../external_data/html_info.html">찾아보기</a></li>
-                <li class="uk-nav-header">CSS 외부 자료</li>
-                <li><a href="../external_data/css_info.html">찾아보기</a></li>
-                <li class="uk-nav-header">javascript 외부 자료</li>
-                <li><a href="../external_data/js_info.html">찾아보기</a></li>
+                    <li class="uk-nav-header">Dokdo Related Data</li>
+                <li><a href="../use_data/image.html">Images</a></li>
+                <li><a href="../use_data/info.html">Informations</a></li>
+                <li class="uk-nav-header">Outside Material of HTML</li>
+                <li><a href="../external_data/html_info.html">Find Out!</a></li>
+                <li class="uk-nav-header">Outside Material of CSS</li>
+                <li><a href="../external_data/css_info.html">Find Out!</a></li>
+                <li class="uk-nav-header">Outside Material of JavaScript</li>
+                <li><a href="../external_data/js_info.html">Find Out!</a></li>
               </ul>
                 </div>
             </li>
             <li>
-              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: github"></span>팀 소개</a>
+              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: github"></span>Team Introduction</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class="uk-nav-header">팀 소개</li>
-                <li><a href="https://konosuba-it.tk" target="_blank">소개 페이지 이동</a></li>
-                <li class="uk-nav-header">깃허브</li>
-                <li><a href="https://github.com/konosuba-it/konosuba-it" target="_blank">팀 깃허브 페이지</a></li>
-                <li><a href="https://github.com/konosuba-it/Dokdo_Friends" target="_blank">독도 프로젝트 깃허브 페이지</a></li>
+                <li class="uk-nav-header">Team Introduction</li>
+                <li><a href="https://konosuba-it.tk" target="_blank">Go to Team WebSite.</a></li>
+                <li class="uk-nav-header">GitHub</li>
+                <li><a href="https://github.com/konosuba-it/konosuba-it" target="_blank">Team Github Page</a></li>
+                <li><a href="https://github.com/konosuba-it/Dokdo_Friends" target="_blank">Dokdo Project GitHub Page</a></li>
               </ul>
               </div>
             </li>
         </div>
      </div>
 </nav>
-<!--메뉴 끝-->
+<!--End Menu-->
 <br>
 <div style="margin-left: 70px; margin-right: 70px;">
 
-	<h2>다양한 동식물</h2>
-    <p>독도에는 다양한 동식물들이 서식하고 있습니다.</p>
+	<h2>Variety of animals and plants</h2>
+    <p>Dokdo has a variety of plants and animals live.</p>
 
 <hr>
-    <h2>독도에 있는 다양한 동식물</h2>
+    <h2>A variety of animals and plants in Dokdo</h2>
 
-<p>독도에는 다양한 동식물들이 서식합니다.<br>그 이유는 북쪽에서 내려오는 한류와 남쪽에서 올라오는 난류가 만나는 곳이기 때문입니다.<br>그렇기 때문에 플랑크톤들이 많아 독도에 다양한 동식물들이 서식합니다.</p>
+<p>Dokdo has a variety of plants and animals live.<br>Because near a is meet cold water and warm water.<br>Because of this, there are many plankton species, and various kinds of animals and plants live on Dokdo Island.</p>
 
-<p>이제부터 독도에 서식하고 있는 다양한 동식물들을 알아보도록 하겠습니다.<br>준비 되셨나요?</p>
+<p>From now on, let's take a look at the variety of flora and fauna living in Dokdo.<br>Are you ready?</p>
 
-<h3>독도에 있는 다양한 조류들</h3>
+<h3>Dokdo in a variety of birds.</h3>
 
-<img src="../img/black-tailed_gull.jpg" width="350px"><br><a href="https://commons.wikimedia.org/wiki/File:Black-tailed_gull.jpg">괭이갈매기(CC-BY-SA 3.0)</a></img>
+<img src="../img/black-tailed_gull.jpg" width="350px"><br><a href="https://commons.wikimedia.org/wiki/File:Black-tailed_gull.jpg">Black tailed gull(CC-BY-SA 3.0)</a></img>
 
-<p>독도에서 다양한 조류들을 보실 수 있습니다.<br>약 170종의 조류들이 살고 있다고 알려져 있는데요. 바다제비, 괭이갈매기 등이 있습니다.</p>
+<p>You can see various birds from Dokdo.<br>There are about 170 species of birds known to live. Sea swallows, and Black tailed gulls.</p>
 
-<h3>독도에 있는 다양한 식물들</h3>
+<h3>Various Plants in Dokdo</h3>
 
-<p>독도에 살고 있는 식물들은 60여종으로, 민들레, 쑥 등의 초본류와 붉은가시딸기(곰딸기), 보리밥나무와 같은 목본류가 서식하고 있습니다.</p>
+<p>There are about 60 kinds of plants living in Dokdo. There are Dandelion, mugwort, and red-thorn berries (bear berries), horticultural trees such as barley trees in Dokdo.</p>
 
-<h3>그 외</h3>
+<h3>Etc</h3>
 
-<p>곤충, 조류 등 수많은 종들이 독도에 서식하고 있습니다.<br>포유류도 있는데, 강치가 멸종한 이후 물범을 제외하고는 경비견으로 기르고 있는 삽살개가 유일한 포유류입니다.</p>
+<p>Insects, birds and many other species live in Dokdo.<br>Mammals are also the only mammals that have been raised as guard dogs, except for true seals, since Zalophus Japonicus have become extinct.</p>
 
-<p>이런 아름다운 독도를 보호하기 위해 대한민국은 독도를 천연기념물로 지정하였습니다.<br>아름다운 독도에 갈때 쓰레기 등을 아무데나 버리면 안되겠죠?</p>
+<p>To protect this beautiful Dokdo, Korea has designated Dokdo as a natural monument.<br>When you go to beautiful Dokdo, you must not throw away trash anywhere.</p>
 
-<h2>천연기념물 독도</h2>
+<h2>Natural Monument Dokdo</h2>
 
 <p>아름다운 경관과 다양한 동식물들이 서식하고 있는 독도는 천연기념물로 지정되었습니다. 천연기념물 제336호인 독도. 우리가 아끼고 사랑해야 합니다.</p>
 
 <p>천연기념물 뿐만 아니라 「자연환경보전지역」, 「도서지역의 생태계보전법」, 「독도의 지속가능한 이용에 관한 법률」로 보호받고 있는 아름다운 독도. 잘 가꿔나가야 겠죠?</p>
 
-<h2>일본의 탐욕으로 인해 멸종한 강치</h2>
+<h2>Zalophus Japonicus, extinct by Japanese greed.</h2>
 
-<img src="../img/Zalophus_japonicus.jpg" width="350px"><br>일본에 의해 멸종된 강치. 마지막 강치는 박제되어 일본의 박물관에 전시되어 있다.<br><a href="https://commons.wikimedia.org/wiki/File:Zalophus_japonicus.JPG">강치(CC-BY-SA 3.0)</a></img>
+<img src="../img/Zalophus_japonicus.jpg" width="350px"><br>「Dokdo Zalophus Japonicus」 is extinct by Japan. Last Zalophus Japonicus is now stuffed and is on display in Japanese museums.<br><a href="https://commons.wikimedia.org/wiki/File:Zalophus_japonicus.JPG">Zalophus Japonicus(CC-BY-SA 3.0)</a></img>
 
 <p>강치는 독도에서 서식하고 있었던 물갯과의 포유류 입니다<br>1897년 처음 일본 어부들이 잡았고 그 이후에는 엄청난 수의 강치를 잡았습니다.</p>
 
 <p>강치는 옷이나 가죽으로 많이 사용되었는데요.<br>일본은 강치를 멸종시켜놓고 강치가 그리워 한다는 모순된 말을 하고 있습니다.<br>자기들이 멸종시켰으면서 강치가 그립다고 하는 이런 현실. 일본은 반성하시길 바랍니다.</p>
 
-<p>현재 「독도 강치」는 멸종되었으며, 일본의 박물관에 박제 상태로 전시되어 있습니다.</p>
+<p>Last 「Dokdo Zalophus Japonicus」 is now stuffed and is on display in Japanese museums.</p>
 
 </div>
 
@@ -142,30 +123,30 @@
 <br>
 <hr>
 <div style="margin-left: 70px; margin-right: 70px;">
-<p>독도는 자랑스러운 대한민국의 영토입니다. 우리는 독도를 일본의 영토라고 우기는 일본을 위해 정확히 알자라는 취지하에 본 사이트를 만들었습니다.</p>
-<p>관련 사이트 이동 : <select onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
-    <optgroup label="프로젝트"></optgroup>
-        <option value="https://konosuba-it.tk">이 멋진 IT에 축복을!</option>
-        <option value="../index.html">독도 프렌즈</option>
-        <option value="../en/index.html">독도 프렌즈 영문</option>
+<p>Dokdo is a proud Republic of Korea territory. We make this site, because Japan lied about Dokdo. So The goal is to let Japan know that Dokdo is Korean territory.</p>
+<p>Go to Related site : <select onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
+    <optgroup label="Project"></optgroup>
+        <option value="https://konosuba-it.tk">God's Blessing on This Wonderful IT!(Korean)</option>
+        <option value="/index.html">Dokdo Friends(Korean)</option>
+        <option value="../index.html">Dokdo Friends(English)</option>
     </optgroup>
-    <optgroup label="독도 관련 사이트"></optgroup>
-        <option value="http://dokdo.mofa.go.kr">외교부 독도 사이트</option>
-        <option value="http://dokdo.go.kr">경상북도 독도 사이트</option>
+    <optgroup label="Dokdo related sites"></optgroup>
+        <option value="http://dokdo.mofa.go.kr">Korea Ministry of Foreign Affairs Dokdo Site</option>
+        <option value="http://dokdo.go.kr">Gyeongsangbuk-do Dokdo Site</option>
         <option value="http://cooks.or.kr/90103624790">Do you know Dokdo?</option>
     </optgroup>
 </select></p>
 </div>
 <br>
 <br>
-<!--푸터 끝-->
-<!--script 불러오기-->
-<!--uikit js 불러오기-->
+<!--End Footer-->
+<!--Load script-->
+<!--Load uikit js-->
 <script src="https://common.gaon.xyz/js/uikit/uikit.min.js"></script>
-<!--uikit icon js 불러오기-->
+<!--Load uikit icon js-->
 <script src="https://common.gaon.xyz/js/uikit/uikit-icons.min.js"></script>
-<!--Jquery 불러오기-->
+<!--Load Jquery-->
 <script src="https://common.gaon.xyz/js/jquery/jquery-3.3.1.js"></script>
-<!--script 불러오기 완료-->
+<!--End Load script-->
 </body>
 </html>
