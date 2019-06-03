@@ -2,130 +2,111 @@
 <html>
 <head>
 <title>자랑스러운 대한민국의 영토, 독도</title>
-<!--meta 태그 시작-->
-<!--언어 기본값 UTF-8-->
+<!--Start meta tag-->
 <meta charset="utf-8">
-<!--모바일 브라우저 상단 색 지정-->
-<meta name="theme-color" content="#e3f2fd">
-<!--meta 태그 끝-->
-<!--uikit css 불러오기-->
-<link rel="stylesheet" href="https://common.gaon.xyz/css/uikit/uikit.min.css" />
-<!--모바일 페이지 이동-->
-<script>
-  /**
-  * 모바일 페이지 강제 이동
-  */
-  //Mobile여부를 구분하기 위함
-  var uAgent = navigator.userAgent.toLowerCase();
-  // 아래는 모바일 장치들의 모바일 페이지 접속을위한 스크립트
-  var mobilePhones = new Array('iphone', 'ipod', 'ipad', 'android', 'blackberry', 'windows ce','nokia', 'webos', 'opera mini', 'sonyericsson', 'opera mobi', 'iemobile');
-  for (var i = 0; i < mobilePhones.length; i++){
-    if (uAgent.indexOf(mobilePhones[i]) != -1){
-      location.href="./m_index.html";
-    }
-  };
-</script>
-<!--모바일 페이지 이동 끝-->
+<!--End meta tag-->
+<!--Load uikit css-->
+<link rel="stylesheet" href="https://common.gaon.xyz/css/uikit/uikit.edit.css" />
 </head>
 <body>
-<!--메뉴 시작-->
+<!--Start Menu-->
 <nav class="uk-navbar-container" style="background-color: #e3f2fd;">
     <div class="uk-navbar-left">
-        <a class="uk-navbar-item uk-logo" href="../index.html">독도 프렌즈</a>
+        <a class="uk-navbar-item uk-logo" href="../index.html">Dokdo Friends</a>
         <div uk-navbar>
           <ul class="uk-navbar-nav">
             <li>
-                <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: location"></span>아름다운 독도</a>
+                <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: location"></span>Beatiful Dokdo</a>
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class="uk-nav-header">소개</li>
-                <li><a href="../where/index.html">독도는 어디에 있어요?</a></li>
-                <li><a href="../name/index.html">독도의 명칭</a></li>
-                <li class="uk-nav-header">독도의 동식물과 자원</li>
-                <li><a href="../animals/index.html">다양한 동식물</a></li>
-                <li><a href="../resources/index.html">독도의 자원들</a></li>
+                <li class="uk-nav-header">Introduce</li>
+                <li><a href="../where/index.html">Where is Dokdo?</a></li>
+                <li><a href="../name/index.html">The Name of Dokdo</a></li>
+                <li class="uk-nav-header">Animals and Plants and resources of the Dokdo.</li>
+                <li><a href="../animals/index.html">Variety of animals and plants</a></li>
+                <li><a href="../resources/index.html">Resources of Dokdo</a></li>
               </ul>
             </div>
             </li>
             <li>
-              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: comments"></span>함께해요</a>
+              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: comments"></span>Join Us!</a>
               <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class="uk-nav-header">소셜 기능</li>
-                <li><a href="../comments/index.html">소셜 댓글</a></li>
-                <li class="uk-nav-header">독도 관련</li>
-                <li><a href="../song/index.html">독도는 우리땅 노래</a></li>
-				<li><a href="../quiz/index.html">독도 퀴즈</a></li>
+                <li class="uk-nav-header">Social Function</a></li>
+                <li><a href="../comments/index.html">Social Comments</a></li>
+                <li class="uk-nav-header">Dokdo Related</li>
+                <li><a href="../song/index.html">Song 'Dokdo is Our Territory'</a></li>
+				<li><a href="../quiz/index.html">Dokdo Quiz</a></li>
               </ul>
               </div>
             </li>
             <li>
-              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: database"></span>사용된 자료들</a>
+              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: database"></span>Use Materials</a>
               <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
-                    <li class="uk-nav-header">독도 관련 자료</li>
-                <li><a href="../use_data/image.html">이미지</a></li>
-                <li><a href="../use_data/info.html">정보</a></li>
-                <li class="uk-nav-header">Html 외부 자료</li>
-                <li><a href="../external_data/html_info.html">찾아보기</a></li>
-                <li class="uk-nav-header">CSS 외부 자료</li>
-                <li><a href="../external_data/css_info.html">찾아보기</a></li>
-                <li class="uk-nav-header">javascript 외부 자료</li>
-                <li><a href="../external_data/js_info.html">찾아보기</a></li>
+                    <li class="uk-nav-header">Dokdo Related Data</li>
+                <li><a href="../use_data/image.html">Images</a></li>
+                <li><a href="../use_data/info.html">Informations</a></li>
+                <li class="uk-nav-header">Outside Material of HTML</li>
+                <li><a href="../external_data/html_info.html">Find Out!</a></li>
+                <li class="uk-nav-header">Outside Material of CSS</li>
+                <li><a href="../external_data/css_info.html">Find Out!</a></li>
+                <li class="uk-nav-header">Outside Material of JavaScript</li>
+                <li><a href="../external_data/js_info.html">Find Out!</a></li>
               </ul>
                 </div>
             </li>
             <li>
-              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: github"></span>팀 소개</a>
+              <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: github"></span>Team Introduction</a>
               <div class="uk-navbar-dropdown">
                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                <li class="uk-nav-header">팀 소개</li>
-                <li><a href="https://konosuba-it.tk" target="_blank">소개 페이지 이동</a></li>
-                <li class="uk-nav-header">깃허브</li>
-                <li><a href="https://github.com/konosuba-it/konosuba-it" target="_blank">팀 깃허브 페이지</a></li>
-                <li><a href="https://github.com/konosuba-it/Dokdo_Friends" target="_blank">독도 프로젝트 깃허브 페이지</a></li>
+                <li class="uk-nav-header">Team Introduction</li>
+                <li><a href="https://konosuba-it.tk" target="_blank">Go to Team WebSite.</a></li>
+                <li class="uk-nav-header">GitHub</li>
+                <li><a href="https://github.com/konosuba-it/konosuba-it" target="_blank">Team Github Page</a></li>
+                <li><a href="https://github.com/konosuba-it/Dokdo_Friends" target="_blank">Dokdo Project GitHub Page</a></li>
               </ul>
               </div>
             </li>
         </div>
      </div>
 </nav>
-<!--메뉴 끝-->
+<!--End Menu-->
 <br>
-	<!--현재 날짜 불러오기-->
+	<!--Load Today date-->
 	<script>
-	var d = new Date();
-        var currentDate = d.getFullYear() + "년 " + ( d.getMonth() + 1 ) + "월 " + d.getDate() + "일";
-        var currentTime = d.getHours() + "시 " + d.getMinutes() + "분 " + d.getSeconds() + "초";
-        var result = document.getElementById("time-result");
-	</script>
-	<!--닉네임 입력-->
-	<script>
-	var nickname;
-	nickname = prompt("닉네임을 입력해 주세요")
-	</script>
-	<!--확인서-->
-		<center>
-			<div id="capture">
-			<h2>확인서</h2>
-			<p>독도 프렌즈에 있는 총 다섯 문제의 독도 퀴즈를 모두 맞추신 분께 확인서를 드립니다.</p><br>
-			<img src="../img/check.jpg" width="500px"><br><br><br>
-			<script>
-				document.write("'"+ nickname+"' 님은 독도 프렌즈의 퀴즈를 모두 풀어 맞췄습니다<BR>");
-				document.write( currentDate + currentTime + " 에 문제를 풀었다는 것을 이 확인서가 인증합니다<BR>");
-			</script>
-			</div><br><br>
-			<h3>확인서를 SNS에 공유해 보세요! </h3>
-			<script>document.write("'"+ nickname+"' 님 확인서를 SNS에 공유를 하여 독도에 대해 알려 보세요!");</script>
-			<p>아래의 캡쳐 버튼을 누르면 확인서가 이미지로 생성됩니다. 이미지 위에 마우스를 올린 뒤 오른쪽 버튼을 눌러서 저장 버튼을 눌러 저장하신 뒤 SNS에 공유해 보세요.</p>
-			<br>
-			<button type="button" class="uk-button uk-button-primary btnScreenShot" id="btnScreenShot">캡쳐</button>
-			<br>
-			<hr>
-			<br>
-			<br>
-			<div id="img-out"></div>
-		</center>
+    var d = new Date();
+          var currentDate = ( d.getMonth() + 1 ) + "/" + d.getDate() + "/" + d.getFullYear() + ",";
+          var currentTime = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+          var result = document.getElementById("time-result");
+    </script>
+    <!--Input Nickname-->
+    <script>
+    var nickname;
+    nickname = prompt("Input Your Nickname")
+    </script>
+    <!--Confirmation Letter-->
+      <center>
+        <div id="capture">
+        <h2>Confirmation Letter</h2>
+        <p>We will give you a confirmation when you got 7/7 on Dokdo Quiz, Dokdo Friends.</p><br>
+        <img src="/wow/check.jpg" width="500px"><br><br><br>
+        <script>
+          document.write("'"+ nickname+"' is solve all quiz in Dokdo Quiz, Dokdo Friends<BR>");
+          document.write("This confirmation will proved that you have untied the quiz at" currentDate + "&nbsp;&nbsp;" + currentTime + "<BR>");
+        </script>
+        </div><br><br>
+        <h3>Share Confirmation Letter to your Social Media! </h3>
+        <script>document.write("'"+ nickname+"', Share to your Social Media and Announce about Dokdo!");</script>
+        <p>When you click 'Capture' button, Confirmation Letter will be captured.</p>
+        <br>
+        <button type="button" class="btn btn-primary btnScreenShot" id="btnScreenShot">Capture</button>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <div id="img-out"></div>
+      </center>
 	<br>
 	<br>
 <br>
