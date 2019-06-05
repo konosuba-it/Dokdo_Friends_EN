@@ -176,6 +176,19 @@
 </div>
 <br>
 <br>
+ <!--Force can not use F12 Developer tool-->
+ <script>
+  // can't use F12 button
+function doNotReload(){ 
+    if( (event.ctrlKey == true && (event.keyCode == 17 || event.keyCode == 16 || event.keyCode == 73)) || (event.keyCode == 123) ) { 
+        event.keyCode = 0; 
+        event.cancelBubble = true; 
+        event.returnValue = false; 
+    } 
+} 
+document.onkeydown = doNotReload;
+</script>
+<!--End Force can not use F12 Developer tool-->
 <!--End Footer-->
 <!--Load script-->
 <!--Load uikit js-->
